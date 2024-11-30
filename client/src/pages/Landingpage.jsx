@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar"; // Import the Navbar component
+import Footer from "./Footer"; // Import the Footer component
 
 const Landingpage = () => {
   return (
@@ -79,7 +80,7 @@ const Landingpage = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-               <img
+              <img
                 src="/body_building.jpg"
                 alt="musle builder"
                 className="mx-auto h-16 mb-4"
@@ -93,7 +94,7 @@ const Landingpage = () => {
               </button>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-                <img
+              <img
                 src="/fatloss.jpg"
                 alt="fat loss"
                 className="mx-auto h-16 mb-4"
@@ -107,7 +108,7 @@ const Landingpage = () => {
               </button>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-                <img
+              <img
                 src="/weight_gain.jpg"
                 alt="weight gain"
                 className="mx-auto h-16 mb-4"
@@ -150,22 +151,7 @@ const Landingpage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="max-w-screen-xl mx-auto px-4 text-center">
-          <p>&copy; 2024 MuscleMate. All Rights Reserved.</p>
-          <div className="flex justify-center mt-4 space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
-              Facebook
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Twitter
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Instagram
-            </a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
