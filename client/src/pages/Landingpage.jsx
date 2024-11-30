@@ -45,13 +45,13 @@ const Landingpage = () => {
             </div>
             <div className="text-center">
               <img
-                src="/coaches.jpg"
-                alt="Expert Coaches"
-                className="mx-auto h-16 w-20 mb-4"
+                src="/progress_tracking.jpg"
+                alt="Progress Tracking"
+                className="mx-auto h-16 mb-4"
               />
-              <h3 className="text-xl font-semibold uppercase">Expert Coaches</h3>
+              <h3 className="text-xl font-semibold uppercase">Progress Tracking</h3>
               <p className="mt-2 text-gray-600">
-                Learn from certified trainers and professionals.
+                Track and monitor your progress.
               </p>
             </div>
             <div className="text-center">
