@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar"; // Ensure Navbar.js exists
+import Footer from "./Footer"; // Ensure Footer.js exists
 
 const Article = () => {
   return (
-
     <div className="min-h-screen bg-gray-100">
+      {/* Navbar */}
+      <Navbar />
+
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-black to-indigo-800 text-white py-20">
         <div className="container mx-auto px-6 md:px-12 text-center">
@@ -60,7 +64,8 @@ const Article = () => {
         </div>
       </section>
 
-      {/* Footer Section */}
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
@@ -137,7 +142,6 @@ const ExpertCard = ({ name, quote, image }) => {
       <h4 className="text-xl font-bold text-gray-800">{name}</h4>
       <p className="text-gray-600 mt-2 italic">"{quote}"</p>
     </div>
-
   );
 };
 
