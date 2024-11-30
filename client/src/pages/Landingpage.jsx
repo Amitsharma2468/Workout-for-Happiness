@@ -10,10 +10,10 @@ const Landingpage = () => {
       {/* Hero Section */}
       <section
         className="bg-cover bg-center h-screen"
-        style={{ backgroundImage: "url('/path/to/hero-image.jpg')" }}
+        style={{ backgroundImage: "url('/landing_bg.jpg')" }}
       >
         <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-50 text-white text-center px-4">
-          <h1 className="text-5xl font-bold uppercase">Welcome to MuscleMate</h1>
+          <h1 className="text-5xl font-bold uppercase">Welcome to Fitness Tracker</h1>
           <p className="mt-4 text-lg">
             Your journey to a healthier, stronger you starts here.
           </p>
@@ -32,7 +32,7 @@ const Landingpage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <img
-                src="/path/to/icon1.png"
+                src="/planner.jpg"
                 alt="Personalized Plans"
                 className="mx-auto h-16 mb-4"
               />
@@ -45,9 +45,9 @@ const Landingpage = () => {
             </div>
             <div className="text-center">
               <img
-                src="/path/to/icon2.png"
+                src="/coaches.jpg"
                 alt="Expert Coaches"
-                className="mx-auto h-16 mb-4"
+                className="mx-auto h-16 w-20 mb-4"
               />
               <h3 className="text-xl font-semibold uppercase">Expert Coaches</h3>
               <p className="mt-2 text-gray-600">
@@ -56,7 +56,7 @@ const Landingpage = () => {
             </div>
             <div className="text-center">
               <img
-                src="/path/to/icon3.png"
+                src="/support.jpg"
                 alt="Community Support"
                 className="mx-auto h-16 mb-4"
               />
@@ -79,6 +79,11 @@ const Landingpage = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+               <img
+                src="/body_building.jpg"
+                alt="musle builder"
+                className="mx-auto h-16 mb-4"
+              />
               <h3 className="text-2xl font-bold uppercase mb-4">Bodybuilding</h3>
               <p className="text-gray-600">
                 Build muscle and sculpt your physique with our expert plans.
@@ -88,6 +93,11 @@ const Landingpage = () => {
               </button>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img
+                src="/fatloss.jpg"
+                alt="fat loss"
+                className="mx-auto h-16 mb-4"
+              />
               <h3 className="text-2xl font-bold uppercase mb-4">Fat Loss</h3>
               <p className="text-gray-600">
                 Shed fat and achieve a lean, toned body.
@@ -97,6 +107,11 @@ const Landingpage = () => {
               </button>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img
+                src="/weight_gain.jpg"
+                alt="weight gain"
+                className="mx-auto h-16 mb-4"
+              />
               <h3 className="text-2xl font-bold uppercase mb-4">Weight Gain</h3>
               <p className="text-gray-600">
                 Safely increase your weight with guided plans.

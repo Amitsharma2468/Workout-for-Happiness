@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="/path/to/logo.png"
+            src="/logo.png"
             alt="MuscleMate Logo"
             className="h-8"
           />
@@ -19,7 +19,7 @@ const Navbar = () => {
             to="/"
             className="ml-2 text-black text-xl font-bold uppercase hover:text-blue-500 transition"
           >
-            MuscleMate
+            FITNESS TRACKER
           </Link>
         </div>
 
