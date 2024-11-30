@@ -7,6 +7,8 @@ import Bodybuilding from './pages/Bodybuilding';
 import FatLoss from './pages/FatLoss';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import WeightGain from './pages/Weightgain';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Route path="/programs/fat-loss" element={<FatLoss />} />
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/programs/weight-gain" element={<WeightGain/>} />
 
        
        
