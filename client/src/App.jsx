@@ -5,6 +5,8 @@ import AboutUs from './pages/AboutUs';
 import Article from './pages/Article';
 import Bodybuilding from './pages/Bodybuilding';
 import FatLoss from './pages/FatLoss';
+import Register from './pages/Register';
+import Login from './pages/Login';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Route path="/articles" element={<Article />} />
         <Route path="/programs/bodybuilding" element={<Bodybuilding />} />
         <Route path="/programs/fat-loss" element={<FatLoss />} />
+        <Route path="/register" element={<Register/>} />
+        <Route path="/login" element={<Login/>} />
 
        
        
