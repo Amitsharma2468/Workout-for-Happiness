@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import WeightGain from './pages/Weightgain';
 import Profile from './pages/Profile';
 import Dashboard from './pages/Dashboard';
+import OpenModalPage from './pages/OpenModalPage';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/profile" element={<Profile/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/programs/weight-gain" element={<WeightGain/>} />
+        <Route path="/modalpage" element={<OpenModalPage/>} />
 
        
        
