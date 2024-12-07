@@ -9,6 +9,7 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import WeightGain from './pages/Weightgain';
 import Profile from './pages/Profile';
+import Dashboard from './pages/Dashboard';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/profile" element={<Profile/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/programs/weight-gain" element={<WeightGain/>} />
 
        
