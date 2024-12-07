@@ -8,6 +8,7 @@ import FatLoss from './pages/FatLoss';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import WeightGain from './pages/Weightgain';
+import Profile from './pages/Profile';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/programs/fat-loss" element={<FatLoss />} />
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/profile" element={<Profile/>} />
         <Route path="/programs/weight-gain" element={<WeightGain/>} />
 
        
